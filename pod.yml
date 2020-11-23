@@ -1,4 +1,4 @@
-apiVersio: v1
+apiVersion: v1
 kind: Pod
 metadata:
    name: web
@@ -7,5 +7,6 @@ metadata:
 spec:
    containers:
      name: web
-     image: httpd
+     image: httpd 
+     ports:
 ConatinerPort: 80 
