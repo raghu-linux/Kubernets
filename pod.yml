@@ -1,0 +1,11 @@
+apiVersio: v1
+kind: Pod
+metadata:
+   name: web
+   labels:
+   app: webapp
+spec:
+   containers:
+     name: web
+     image: httpd
+ConatinerPort: 80 
