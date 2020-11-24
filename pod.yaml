@@ -6,7 +6,7 @@ metadata:
    app: webapp
 spec:
    containers:
-     name: web
+   - name: web
      image: httpd 
-     ports:
-ConatinerPort: 80 
+   ports:
+   - ConatinerPort: 80 
