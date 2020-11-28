@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-dep
+  labels:
+    dep: webapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: depp
+  template:
+    metadata:
+      labels:
+        name: depp
+    spec:
+      containers:
+      - name: web-raghu
+        image: httpd
+        ports:
+          - containerPort: 80 
+
+
