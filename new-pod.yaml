@@ -7,6 +7,6 @@ metadata:
 spec:
    containers:
    - name: raghu
-   image: httpd
+     image: httpd
    ports:
    - ContainerPort: 80  
