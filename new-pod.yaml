@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: web-server
   labels:
-  app: apache-server
+  app: application
 spec:
    containers:
    - name: raghu
